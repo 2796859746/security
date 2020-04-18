@@ -1,0 +1,42 @@
+2020-04-18 12:58:31.263[main][main] INFO  c.e.s.SecurityTestDemoApplication - Starting SecurityTestDemoApplication on DESKTOP-914F8O2 with PID 23024 (E:\dev\security-test-demo\target\classes started by Lenovo in E:\dev\security-test-demo)
+2020-04-18 12:58:31.272[main][main] INFO  c.e.s.SecurityTestDemoApplication - No active profile set, falling back to default profiles: default
+2020-04-18 12:58:34.513[main][main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-04-18 12:58:35.990[main][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-18 12:58:36.003[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-18 12:58:36.004[main][main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-18 12:58:36.004[main][main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-18 12:58:36.005[main][main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-04-18 12:58:36.005[main][main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-04-18 12:58:36.005[main][main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-04-18 12:58:36.128[main][main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-04-18 12:58:36.420[main][main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-18 12:58:36.421[main][main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4991 ms
+2020-04-18 12:58:37.005[main][main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-18 12:58:38.321[main][main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-18 12:58:38.636[main][main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-18 12:58:40.113[main][main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@697a0948, org.springframework.security.web.context.SecurityContextPersistenceFilter@437bd805, org.springframework.security.web.header.HeaderWriterFilter@1ab14636, org.springframework.security.web.authentication.logout.LogoutFilter@5f08fe00, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6b8d54da, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3daf03d8, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7cf63b9a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6fa02932, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@382dc417, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4776e209, org.springframework.security.web.session.SessionManagementFilter@49fdbe2b, org.springframework.security.web.access.ExceptionTranslationFilter@77b5148c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ee88e21]
+2020-04-18 12:58:40.214[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-18 12:58:40.258[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2020-04-18 12:58:40.258[main][main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-18 12:58:40.299[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2020-04-18 12:58:40.299[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2020-04-18 12:58:40.304[main][main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-18 12:58:40.307[main][main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-04-18 12:58:40.310[main][main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-18 12:58:40.310[main][main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-04-18 12:58:40.311[main][main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
